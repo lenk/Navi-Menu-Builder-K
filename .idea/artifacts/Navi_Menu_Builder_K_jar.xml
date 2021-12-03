@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Navi-Menu-Builder-K:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Navi_Menu_Builder_K_jar</output-path>
+    <root id="archive" name="Navi-Menu-Builder-K.jar">
+      <element id="module-output" name="Navi-Menu-Builder-K" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-test.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
