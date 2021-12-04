@@ -15,7 +15,7 @@ class ResponseBuilder(title: String, private val bulletPoint: String) : Builder 
 
         builder.append("$bulletPoint ").append(
             if (bold)
-                (title.map { c -> this.bold.getOrNull(alpha.indexOf(c)) ?: c })
+                (title.map { c -> this.bold.getOrNull(alpha.indexOf(c)) ?: c }.joinToString(""))
             else
                 title
         ).appendLine()
